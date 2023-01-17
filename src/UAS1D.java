@@ -22,13 +22,9 @@ public class UAS1D {
 
     public String FindWord(ArrayList<String> list, String Cari ){
 
-        list.add(Cari);
-
-        for (int index = 0; index < list.size(); index++){
-            list.get(index).indexOf(Cari);
-
-        }
-        return "Indeks ke " + list.indexOf(Cari);
+        list.contains(Cari);
+//        context.indexOf(context.contains(cari));
+        return  "Kata : "+Cari+"("+list.contains(Cari)+")"+" , Ada Pada Indeks Ke - "+list.indexOf(Cari);
     }
 
 }

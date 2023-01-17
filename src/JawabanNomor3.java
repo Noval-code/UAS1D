@@ -3,7 +3,7 @@ import java.util.Scanner;
 
 public class JawabanNomor3 {
     public static void main(String[] args) {
-        int jum = 1;
+        int jum = 4;
         UAS1D myMessage = new UAS1D();
         Scanner sc = new Scanner(System.in);
         System.out.println("Masukkan ID MESSAGE : ");
